@@ -2,8 +2,7 @@
 
 #include <QFile>
 #include <QDebug>
-#include <cstring>
-using namespace std;
+#include "tools.h"
 
 Torchlight2StashConverter::Torchlight2StashConverter(QObject* parent)
     : QObject(parent)
